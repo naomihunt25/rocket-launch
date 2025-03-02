@@ -2,10 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Galindo&family=Happy+Monkey&display=swap');
 
 /* Fonts (credit: Google Fonts - https://fonts.google.com/ */
-body {
-    font-family: "Galindo", sans-serif;
+
+/* CSS Variables */
+
+:root {
+    --primary-font: 'Galindo', sans-serif;
+    --secondary-font: 'Happy Monkey', serif;
+    --primary-color: #f8f9fa;
+    --secondary-color: #fffade;
 }
 
-h1 {
-    font-family: "Happy Monkey", serif;
+/* Global styles */
+h1, h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+body {
+    background-color: #49008e;
 }
