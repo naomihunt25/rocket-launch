@@ -1,0 +1,11 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Happy+Monkey&display=swap');
+
+/* Fonts (credit: Google Fonts - https://fonts.google.com/ */
+body {
+    font-family: "Galindo", sans-serif;
+}
+
+h1 {
+    font-family: "Happy Monkey", serif;
+}
