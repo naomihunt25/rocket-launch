@@ -23,6 +23,6 @@ p {
     color: var(--secondary-color);
 }
 
-body {
-    background-color: #49008e;
+main {
+    background-color: linear-gradient(#49008e, #00184D);
 }
