@@ -24,5 +24,5 @@ p {
 }
 
 main {
-    background-color: linear-gradient(#49008e, #00184D);
+    background-image: linear-gradient(to bottom, #49008e, #00184D);
 }
