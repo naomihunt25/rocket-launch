@@ -23,6 +23,12 @@ p {
     color: var(--secondary-color);
 }
 
-main {
+body {
     background-image: linear-gradient(to bottom, #49008e, #00184D);
+}
+
+.rocketship-area img {
+    max-width: 100%; 
+display: block; 
+height: auto;
 }
